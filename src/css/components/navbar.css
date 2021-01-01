@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    position: relative;
+    height: 8rem;
+    
+}
+
+.navbar__logo{
+    filter: invert();
+}
+
+
+.navbar__hamb{
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translate(-32%, 62%);
+}
+
+.navbar__nav{
+        display: none;
+    }
+
+

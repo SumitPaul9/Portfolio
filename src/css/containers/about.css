@@ -1,0 +1,43 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 150px);
+
+}
+
+.about__text{
+    font-size: 1.6rem;
+    padding: 12px 30px;
+margin-bottom: 2rem;
+    
+}
+.about__text h1 span{
+    color:orange;
+    }
+
+.about__typical{
+    padding: 15px 0;
+    line-height: 1.8rem;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.about__contact{
+    background-color: orange;
+    border-radius: 25px;
+    padding: 10px 45px;
+    font-size: large;
+}
+.about__detail{
+    font-size: 1.8rem;
+    margin-top: 29px;
+    text-align: center;
+}
+
+.about__pic{
+    width:80%;
+    height:40%;
+    border-radius: 50%;
+}
